@@ -1,38 +1,23 @@
-# Foobar
-
-Foobar is a Python library for dealing with word pluralization.
-
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
-
-## Usage
-
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
-
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+Please submit bug reports, suggestions, and pull requests to the [GitHub issue tracker](https://github.com/PHPMailer/PHPMailer/issues).
 
-Please make sure to update tests as appropriate.
+We are particularly interested in:
 
-## License
+- Fixing edge cases
+- Expanding test coverage
+- Updating translations
 
-[MIT](https://choosealicense.com/licenses/mit/)
+If you find a mistake in the documentation or want to add something, feel free to amend the wiki. Anyone can edit it!
 
+### Updating Git Remotes
+
+If you cloned the project prior to its move to the PHPMailer GitHub organization, you need to update your remote URL. Use this command:
+
+```bash
+git remote set-url upstream https://github.com/PHPMailer/PHPMailer.git
+
+## History
+
+- **2001**: PHPMailer was originally written by Brent R. Matzelle as a [SourceForge project](https://sourceforge.net/projects/phpmailer).
+- **2004**: Marcus Bointon ([coolbru on SourceForge](https://sourceforge.net/u/coolbru/profile/)) and Andy Prevost ([codeworxtech](https://sourceforge.net/u/codeworxtech/profile/)) took over the project
